@@ -1,0 +1,413 @@
+body {
+    background-color: #FFECEC; 
+}
+
+.navbar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    height:70px;
+}
+
+#all {
+    height:100%;
+}
+
+#bullets {
+    height: 170px;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #FFD8D8;
+}
+
+#sacola{
+    width:33.3%;
+    height:170px;
+    font-weight: bold;
+    color: #EC5457;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    background: url('../assets/bg_sacola.svg') no-repeat;
+    background-position:center;
+}
+
+#pagamento{
+    width:33.3%;
+    height:170px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    background: url('../assets/bg_pagamento_off.svg') no-repeat;
+    background-position:center;
+}
+
+#confirmacao{
+    width:33.3%;
+    height:170px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    background: url('../assets/bg_confirmacao_off.svg') no-repeat;
+    background-position:center;
+}
+
+#resumo {
+    height: 100px;
+    margin-top: 20px;
+}
+
+#compras {
+    height:100%;
+}
+
+.login{
+    float: right;
+    align-items: center;
+    display: flex;
+}
+
+.login_text{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    float: left;
+    color: #93494A;
+    padding:10px;
+}
+
+.btn-pagamento {
+    background: #2ED0A2;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-style: none;
+    border-radius: 4px;  border: none; 
+    color: white; 
+    text-align: left;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background-image: url(../assets/bg_btn_pagamento.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: 20% 50%; 
+
+}
+
+.btn-pagamento:hover {
+  background-color: #21AB85;
+}
+
+.btn-pagamento-mobile {
+    background: #2ED0A2;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-style: none;
+    border-radius: 4px;  border: none; 
+    color: white; 
+    text-align: left;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background-image: url(../assets/bg_btn_pagamento.svg);
+    background-repeat: no-repeat, repeat;
+    background-position: 50% 50%; 
+}
+
+#box-produto{
+    height: 165px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin: 10px; 
+}
+
+#box-thumb{
+    width: 25%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+#box-text{
+    width: 75%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.text-produto{
+    width: 85%;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 130%;
+    /* or 19px */
+    color: #636363;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#div-preco{
+    padding-right: 0;
+}
+
+.text-preco{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    display: flex;
+    color: #93494A;
+    padding-left: 10px;
+}
+
+#div-desconto{
+    width: 65%;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.text-desconto{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #21AB85;
+}
+
+.icone-remover{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    float: right;
+
+}
+
+#div-resumo{   
+    width: 100%;
+    display:grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+#div-resumo-esquerda{
+    width: 50%;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 40px;
+    line-height: 200%;
+    color: #93494A;
+}
+
+#div-resumo-direita {
+    width: 50%;
+    text-align: right;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-right: 40px;
+    line-height: 200%;
+    color: #93494A;
+}
+
+#div-resumo-esquerda-2{
+    width: 50%;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 200%;
+    color: #93494A;
+}
+
+#div-resumo-direita-2 {
+    width: 50%;
+    text-align: right;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-right: 20px;
+    line-height: 200%;
+    color: #93494A;
+}
+
+.text-resumo{
+    font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #93494A;
+}
+
+.text-total {
+   font-family: Sen;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #93494A;
+}
+
+#div-total {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    margin:0;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.text-btn-pagamento-1 {
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1px;
+padding-left: 110px;
+padding-top: 10px;
+color: #FFFFFF;  
+}
+
+.text-btn-pagamento-2 {
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 24px;
+padding-left: 109px;
+color: #FFFFFF;  
+}
+
+.text-btn-pagamento-total {
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+padding-top: 15px;
+padding-left: 20px;
+line-height: 150%;
+color: #FFFFFF; 
+}
+
+
+@media screen and (max-width:576px) {
+    
+#bullets {
+    height: 120px;
+    margin-bottom: 10px;
+}
+    
+#sacola{
+    height: 140px; !important!
+    font-size: 13px;
+    padding-bottom: 50px;
+    background-position: center;
+    padding-bottom: 30px;
+}
+    
+#pagamento {
+    height: 140px; !important!
+    font-size: 13px;
+    padding-bottom: 50px;
+    background-position: center;
+    padding-bottom: 30px;
+    
+}
+    
+#confirmacao {
+    height: 140px; !important!
+    font-size: 13px;
+    padding-bottom: 50px;
+    background-position: center;
+    padding-bottom: 30px;
+    
+}
+    
+#resumo {
+    margin-top: 0px;
+}
+    
+.btn-pagamento-mobile{
+    width: 95%;
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin:10px;
+}
+    
+.box-thumb{
+    width: 200px;
+}
+
+#box-produto{
+    margin: 0px;
+    margin-bottom: 10px;
+}  
+    
+.text-produto{
+    width: 90%;
+    font-size: 13px;
+} 
+
+.text-preco{
+    font-size: 16px;
+}
+
+    
+#div-total {
+    margin-bottom: 120px;
+}
+    
+.text-btn-pagamento-1 {
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1px;
+padding-left: 85px;
+padding-top: 19px;
+color: #FFFFFF;  
+}
+
+.text-btn-pagamento-2 {
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-weight: bold;
+font-size: 24px;
+padding-left: 85px;
+color: #FFFFFF;  
+}
